@@ -1,0 +1,175 @@
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse ;
+    background-color: aqua;   
+ }
+.flex-container > div {
+    background-color: antiquewhite;
+    width: 100px;
+    line-height: 70px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+/* Its main container */
+.sam{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    
+}
+
+/* Its item styling */
+.sam > div{
+    background-color: aliceblue;
+    width: 100px;
+    line-height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+ /* section-2 */
+.flex-2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-2 > div{
+    background-color: aquamarine;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+/* section-3 */
+.janak{
+    display: flex;
+    flex-flow: column-reverse;
+    background-color: pink;
+}
+
+.janak > div{
+    background-color: paleturquoise;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+}
+
+.samruddhi{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    align-content: center;
+}
+.samruddhi > div{
+    background-color: khaki;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.mat{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    background-color:khaki;
+    align-content: center;
+}
+.mat > div{
+    background-color: violet;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+
+.moto{
+    display: flex;
+    height: 300px;
+    flex-wrap: row;
+    background-color:pink;
+    align-items: center;
+}
+.moto > div{
+    background-color: greenyellow;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+
+
+.max{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    background-color:yellowgreen;
+    align-content: center;
+}
+.max > div{
+    background-color:blue;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.dot{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    background-color:orange;
+    align-content: center;
+}
+.dot > div{
+    background-color:pink;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    align-items: center;
+}
+
+
+.dev{
+    display: flex;
+    height: 200px;
+   background-color: red;
+   flex-flow: row-reverse wrap-reverse;
+}
+.dev > div{
+    background-color:whitesmoke;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;    
+}
+
+
+
+
+
